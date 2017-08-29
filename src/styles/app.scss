@@ -1,0 +1,18 @@
+$green-color: green;
+$white-color: white;
+$grey-accent: #888888;
+
+body {
+    background-color: $green-color;
+}
+.mainCard {
+    width: 75%;
+    height: 400px;
+    border-radius: 10px;
+    background-color: $white-color;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 10%;
+    box-shadow: 2px 2px 2px black;
+}
