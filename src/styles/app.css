@@ -33,6 +33,27 @@ body {
   padding: 5px;
   font-family: "Archivo", sans-serif;
 }
+
+.primary-button {
+  height: 45px;
+  padding: 5px;
+  font-family: "Archivo", sans-serif;
+  border: 3px solid green;
+  border-radius: 5px;
+  background: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
+}
+
+.primary-button:hover {
+  color: white;
+  background-color: green;
+  border: 3px solid black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
  
 
  /*# sourceMappingURL= app.css.map */
