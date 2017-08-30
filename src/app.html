@@ -1,10 +1,19 @@
 <template>
 
+  <link href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Black" rel="stylesheet">
   <require from="./styles/app.css"></require>
 
   <div class="mainCard">
 
     <h1>${message}</h1>
+    <h2>Search for a gamertag below to find their gamercard:</h2>
+
+    <form class="mainForm">
+
+      <input type="text" placeholder="Gamertag" class="primary-text" maxlength="15">
+      <button type="submit" class="primary-button">Search</button>
+
+    </form>
 
   </div>
 
