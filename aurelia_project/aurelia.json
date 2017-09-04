@@ -42,7 +42,7 @@
           "aurelia-framework",
           "aurelia-history",
           "aurelia-history-browser",
-          // "aurelia-http-client",
+          "aurelia-http-client",
           "aurelia-loader",
           "aurelia-loader-default",
           "aurelia-logging",
@@ -61,6 +61,11 @@
             "name": "aurelia-templating-resources",
             "path": "../node_modules/aurelia-templating-resources/dist/amd",
             "main": "aurelia-templating-resources"
+          },
+          {
+            "name": "axios",
+            "path": "../node_modules/axios/dist",
+            "main": "axios"
           },
           {
             "name": "aurelia-templating-router",
