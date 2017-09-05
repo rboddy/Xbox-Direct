@@ -1,0 +1,61 @@
+$green-color: green;
+$white-color: white;
+$grey-accent: #888888;
+$main-font: 'Archivo Black', sans-serif;
+$second-font: 'Archivo', sans-serif;
+
+body {
+    background-color: $green-color;
+}
+.mainCard {
+    width: 75%;
+    min-height: 400px;
+    height: auto;
+    border-radius: 10px;
+    background-color: $white-color;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 10%;
+    box-shadow: 2px 2px 2px black;
+    font-family: $second-font;
+        h1 {
+            font-family: $main-font;
+            font-size: 60px;
+        }
+}
+.primary-text {
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border: 2px solid $green-color;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: $second-font;
+}
+.primary-button {
+    height: 45px;
+    padding: 5px;
+    font-family: $second-font;
+    border: 3px solid $green-color;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+}
+.primary-button:hover {
+    color: white;
+    background-color: $green-color;
+    border: none;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.secondary-button {
+    background-color: $green-color;
+    height: 40px;
+    width: 150px;
+    color: white;
+    font-family: $main-font;
+    border: none;
+    border-radius: 5px;
+}

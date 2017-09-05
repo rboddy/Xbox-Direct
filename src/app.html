@@ -1,21 +1,3 @@
 <template>
-
-  <link href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Black" rel="stylesheet">
-  <require from="./styles/app.css"></require>
-
-  <div class="mainCard">
-
-    <h1>${message}</h1>
-    <h2>Search for a gamertag below to find their gamercard:</h2>
-
-    <form class="mainForm" submit.trigger="findGamerTag()">
-
-      <input type="text" placeholder="Gamertag" id="gamerTag" keyup.delegate="showClear()" class="primary-text" maxlength="15">
-      <button class="primary-button" id="clearBtn" click.delegate="clearInput()" style="display: none">Clear</button>
-      <button type="submit" class="primary-button">Search</button>
-
-    </form>
-
-  </div>
-  
+    <router-view></router-view>
 </template>
