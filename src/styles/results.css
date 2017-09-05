@@ -50,14 +50,15 @@ body {
   transform: scale(1.1);
 }
 
-.secondary-button {
-  background-color: green;
+.back-button {
+  background-color: white;
   height: 40px;
   width: 150px;
-  color: white;
+  color: black;
   font-family: "Archivo Black", sans-serif;
   border: none;
   border-radius: 5px;
+  box-shadow: 1px 1px #888888;
 }
  
 
